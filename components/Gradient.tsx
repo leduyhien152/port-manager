@@ -17,7 +17,7 @@ export const Gradient: NextPage = () => {
             </div>
             <h1 className="m-0 text-base">Port Manager</h1>
           </div>
-          <h2 className="leading-tight mt-4 mb-8 text-black md:text-5xl md:mt-8 md:leading-tight">
+          <h2 className="text-4xl leading-tight mt-4 mb-8 text-black md:text-5xl md:mt-8 md:leading-tight">
             Manage ports from your menu bar.
           </h2>
           <p className="text-xl leading-relaxed">
