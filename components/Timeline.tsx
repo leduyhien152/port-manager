@@ -9,17 +9,17 @@ interface Props {
 
 const TimelineEntry = ({ timestamp, icon, content, hasLine }: Props) => {
   return (
-    <div className="flex items-center flex-wrap mb-8 md:flex-nowrap">
-      <div className="font-timestamp text-lg md:w-44 md:text-right md:flex-shrink-0">
+    <div className="flex items-center flex-wrap mb-8 last:mb-0 md:flex-nowrap">
+      <div className="font-timestamp text-1.2 md:w-180 md:text-right md:flex-shrink-0">
         {timestamp}
       </div>
-      <div className="w-8 h-8 bg-white flex m-4 justify-center items-center text-xl">
+      <div className="w-8 h-8 bg-white flex m-4 justify-center items-center text-1.4">
         {hasLine && (
           <span className="md:w-[1px] md:h-[calc(100%-3rem)] md:bg-timeline md:absolute md:top-4 md:-z-1"></span>
         )}
         {icon}
       </div>
-      <div>{content}</div>
+      <div className="leading-tight">{content}</div>
     </div>
   );
 };
@@ -27,7 +27,7 @@ const TimelineEntry = ({ timestamp, icon, content, hasLine }: Props) => {
 export const Timeline: NextPage = () => {
   return (
     <section className="max-w-1000 m-auto p-8 relative">
-      <h3 className="text-xl leading-snug font-medium my-2 text-center pb-8">
+      <h3 className="text-1.3 leading-1.4 font-medium my-2 text-center pb-8">
         If you’re a developer, this story will sound familiar.
       </h3>
       <div className="md:relative">

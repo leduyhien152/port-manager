@@ -8,7 +8,7 @@ import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <div className="text-lg">
+    <div className="text-lg antialiased">
       <Head>
         <title>Port Manager for Mac — Manage ports from your menu bar</title>
         <meta

@@ -16,10 +16,10 @@ export const Desktop: NextPage = () => {
 
         <section className="max-w-1000 m-auto p-8 relative pt-16 pb-24">
           <div className="flex flex-col items-center">
-            <a className="bg-black text-white p-4 my-4 inline-block rounded font-semibold">
+            <a className="bg-black text-white p-4 my-4 inline-block rounded font-semibold leading-1.2">
               Get Port Manager for macOS
             </a>
-            <div className="text-xs">
+            <div className="text-0.8 leading-tight">
               Works with macOS Sierra (10.12 ) and above.
             </div>
           </div>

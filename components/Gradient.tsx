@@ -15,20 +15,20 @@ export const Gradient: NextPage = () => {
                 ></path>
               </svg>
             </div>
-            <h1 className="m-0 text-base">Port Manager</h1>
+            <h1 className="m-0 text-base leading-none">Port Manager</h1>
           </div>
-          <h2 className="text-4xl leading-tight mt-4 mb-8 text-black md:text-5xl md:mt-8 md:leading-tight">
+          <h2 className="text-4xl leading-1.2 mt-4 mb-8 text-black md:text-5xl md:mt-8 md:leading-1.2">
             Manage ports from your menu bar.
           </h2>
-          <p className="text-xl leading-relaxed">
+          <p className="text-1.2 leading-1.6">
             Find, open and kill ports in a couple of clicks — so you can go back
             to writing code.
           </p>
           <div>
-            <a className="bg-black text-white p-4 my-4 inline-block rounded font-semibold">
+            <a className="bg-black text-white p-4 my-4 inline-block rounded font-semibold leading-1.2">
               Get Port Manager for macOS
             </a>
-            <div className="text-xs">
+            <div className="text-0.8 leading-tight">
               Works with macOS Sierra (10.12 ) and above.
             </div>
           </div>
@@ -37,7 +37,7 @@ export const Gradient: NextPage = () => {
         <img
           src="img/hero_illustration.png"
           alt="hero_illustration"
-          className="max-w-full h-auto mt-16 md:absolute md:left-1/2 md:top-1/4 md:m-0 md:z-0 md:ml-10"
+          className="max-w-full h-auto mt-16 md:absolute md:left-[54%] md:top-1/4 md:m-0 md:z-0"
           width="624"
           height="324"
         />
@@ -65,7 +65,7 @@ export const Gradient: NextPage = () => {
               <line x1="3" y1="18" x2="3.01" y2="18"></line>
             </svg>
           </div>
-          <h3 className="text-xl leading-snug font-medium my-2">
+          <h3 className="text-1.3 leading-1.4 font-medium my-2">
             View all of your ports in one place.
           </h3>
         </div>
@@ -88,7 +88,7 @@ export const Gradient: NextPage = () => {
               <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
             </svg>
           </div>
-          <h3 className="text-xl leading-snug font-medium my-2">
+          <h3 className="text-1.3 leading-1.4 font-medium my-2">
             Open ports in your browser.
           </h3>
         </div>
@@ -111,7 +111,7 @@ export const Gradient: NextPage = () => {
               <line x1="12" y1="2" x2="12" y2="15"></line>
             </svg>
           </div>
-          <h3 className="text-xl leading-snug font-medium my-2">
+          <h3 className="text-1.3 leading-1.4 font-medium my-2">
             Copy and share network URLs.
           </h3>
         </div>
@@ -133,7 +133,7 @@ export const Gradient: NextPage = () => {
               <path d="M13 13l6 6"></path>
             </svg>
           </div>
-          <h3 className="text-xl leading-snug font-medium my-2">
+          <h3 className="text-1.3 leading-1.4 font-medium my-2">
             Free up ports in a couple of clicks.
           </h3>
         </div>
